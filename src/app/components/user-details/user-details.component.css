@@ -1,0 +1,31 @@
+.user-details {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 20px 0;
+  }
+  
+  .user-details h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .user-details p {
+    font-size: 1em;
+    margin: 8px 0;
+  }
+  
+  .user-details p strong {
+    color: #555;
+  }
+  
+  .user-details p span {
+    font-weight: bold;
+  }
+  

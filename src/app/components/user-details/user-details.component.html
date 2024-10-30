@@ -1,0 +1,11 @@
+<div *ngIf="user" class="user-details">
+  <h3>User Details</h3>
+  <p><strong>Name:</strong> {{ user.name }}</p>
+  <p><strong>Email:</strong> {{ user.email }}</p>
+  <p><strong>Phone:</strong> {{ user.phone }}</p>
+  <p><strong>Status:</strong> 
+    <span [style.color]="user.status === 'active' ? 'green' : 'red'">
+      {{ user.status }}
+    </span>
+  </p>
+</div>

@@ -1,0 +1,33 @@
+<div class="container">
+    <h2>User List</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Reg.Time</th>
+      <th>Last Login</th>
+      <th>Status</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users" (click)="selectUser(user.id)">
+      <td>{{ user.name }}</td>
+      <td>{{ user.email }}</td>
+      <td>{{ user.phone }}</td>
+      <td>{{ user.registrationTime }}</td>
+      <td>{{ user.lastLogin }}</td>
+      <td [style.color]="user.status === 'active' ? 'green' : 'red'">
+        {{ user.status }}
+      </td>
+      <td>{{ user.id === selectedUserId ? '👈' : '' }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Conditionally render app-user-details component with selectedUserId -->
+<app-user-details *ngIf="selectedUserId" [userId]="selectedUserId"></app-user-details>
+
+</div>
