@@ -26,20 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
-## Folder Structure
-    angular-users-info/
-├── src/
-│   ├── app/
-│   │   ├── components/         # Reusable components
-│   │   ├── services/           # Services for API calls and data handling
-│   │   ├── pages/              # Pages for different views (registration, login, profile)
-│   │   ├── models/             # Interfaces for user data
-│   │   └── app.module.ts       # Main application module
-│   ├── assets/                 # Images and other static assets
-│   ├── index.html              # Main HTML file
-│   └── styles.css              # Global styles
-└── package.json                # Project dependencies and scripts
-
+## 
 ## Installation
 
 To get started with this project, follow these steps:
