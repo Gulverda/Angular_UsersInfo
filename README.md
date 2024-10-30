@@ -25,4 +25,34 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-#
+
+## Folder Structure
+    angular-users-info/
+├── src/
+│   ├── app/
+│   │   ├── components/         # Reusable components
+│   │   ├── services/           # Services for API calls and data handling
+│   │   ├── pages/              # Pages for different views (registration, login, profile)
+│   │   ├── models/             # Interfaces for user data
+│   │   └── app.module.ts       # Main application module
+│   ├── assets/                 # Images and other static assets
+│   ├── index.html              # Main HTML file
+│   └── styles.css              # Global styles
+└── package.json                # Project dependencies and scripts
+
+## Installation
+
+To get started with this project, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Gulverda/Angular_UsersInfo.git
+   cd Angular_UsersInfo
+
+2. **Install Dependencies**
+    ```bash
+    npm install
+
+3. **Run**
+    ```bash
+    ng serve
